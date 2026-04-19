@@ -342,9 +342,10 @@ div[data-testid="stFileUploader"] [data-testid="stFileUploaderDropzoneInstructio
     color: #334155 !important;
 }
 
-div[data-testid="stFileUploader"] button {
+div[data-testid="stFileUploader"] button[data-testid="stBaseButton-secondary"] {
     min-height: 3rem;
     padding: 0.75rem 1rem;
+    margin-top: 0.45rem;
     border-radius: 14px;
     border: 1px solid #bfdbfe !important;
     background: #eff6ff !important;
@@ -352,19 +353,19 @@ div[data-testid="stFileUploader"] button {
     font-weight: 700 !important;
 }
 
-div[data-testid="stFileUploader"] button *,
-div[data-testid="stFileUploader"] button span {
+div[data-testid="stFileUploader"] button[data-testid="stBaseButton-secondary"] *,
+div[data-testid="stFileUploader"] button[data-testid="stBaseButton-secondary"] span {
     color: #0f172a !important;
     fill: #0f172a !important;
     opacity: 1 !important;
 }
 
-div[data-testid="stFileUploader"] button:hover {
+div[data-testid="stFileUploader"] button[data-testid="stBaseButton-secondary"]:hover {
     background: #dbeafe !important;
     border-color: #93c5fd !important;
 }
 
-div[data-testid="stFileUploader"] button svg {
+div[data-testid="stFileUploader"] button[data-testid="stBaseButton-secondary"] svg {
     fill: #1d4ed8 !important;
     color: #1d4ed8 !important;
 }
@@ -446,15 +447,15 @@ div[data-testid="stFileUploader"] label p {
         border: 1px dashed rgba(96, 165, 250, 0.6);
     }
 
-    div[data-testid="stFileUploader"] button {
+    div[data-testid="stFileUploader"] button[data-testid="stBaseButton-secondary"] {
         background: linear-gradient(180deg, #dbeafe 0%, #bfdbfe 100%) !important;
         border-color: #93c5fd !important;
         color: #0f172a !important;
     }
 
-    div[data-testid="stFileUploader"] button *,
-    div[data-testid="stFileUploader"] button span,
-    div[data-testid="stFileUploader"] button svg {
+    div[data-testid="stFileUploader"] button[data-testid="stBaseButton-secondary"] *,
+    div[data-testid="stFileUploader"] button[data-testid="stBaseButton-secondary"] span,
+    div[data-testid="stFileUploader"] button[data-testid="stBaseButton-secondary"] svg {
         color: #0f172a !important;
         fill: #0f172a !important;
         opacity: 1 !important;
